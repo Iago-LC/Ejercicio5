@@ -28,4 +28,16 @@ public class Exercicio11 {
             suma = suma / 10;
         }
 
+	if (suma2 >= 10) {
+            cifra2 = suma2 % 10;
+            suma2 = suma2 / 10;
+            suma2 = cifra2 + suma2;
+            System.out.println("O teu número da sorte é: " + suma2);
+        } else {
+            System.out.println("O teu número da sorte é: " + suma2);
+        }
+
+    }
+
+}
 
