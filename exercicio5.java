@@ -13,4 +13,9 @@ public class Exercicio11 {
         int cifra2;
         Scanner sc = new Scanner(System.in);
 
-
+	System.out.println("En que día naciches?");
+        dia = sc.nextInt();
+        System.out.println("De que mes?");
+        mes = sc.nextInt();
+        System.out.println("En que ano?");
+        año = sc.nextInt();
