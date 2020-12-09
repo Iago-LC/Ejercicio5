@@ -19,3 +19,13 @@ public class Exercicio11 {
         mes = sc.nextInt();
         System.out.println("En que ano?");
         año = sc.nextInt();
+
+	suma = dia + mes + año;
+
+        while (suma > 0) {
+            cifra = suma % 10;
+            suma2 = suma2 + cifra;
+            suma = suma / 10;
+        }
+
+
